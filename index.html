@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to AISI!</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        main {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .bl {
+            position: absolute;
+            z-index: -1;
+            margin: auto;
+            top: 50%;
+            left: 50%;            
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <img class="bl" src="assets/img/eclipse.png" alt="">
+        <div class="welc-card">
+            <div class="logo">
+                <img src="assets/img/aisi-logo.png" alt="">
+            </div>
+            <div class="text">
+                <p>Apakah Anda mengalami hambatan penglihatan low vision?</p>
+            </div>
+            <div class="button">
+                <button onclick="toNormal()">Tidak</button>
+                <button onclick="toDisable()">Ya</button>
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
