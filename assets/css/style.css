@@ -35,10 +35,6 @@
     list-style: none;
 }
 
-body {
-    background: #CCD4F4;
-}
-
 .welc-card {
     margin: 0 auto;
     display: flex;
@@ -91,7 +87,7 @@ body {
 
 .welc-card button:hover {
     cursor: pointer;
-    background: #243a9e;
+    background: #495BB0;
 }
 
 /* Normal - Index */
@@ -202,18 +198,19 @@ nav .list ul li.active {
 #top .judul {
     font-family: extbold;
     font-size: 50px;
-    width: 40%;
+    width: 45%;
 }
 
 #top .desc {
     font-family: med;
     font-size: 30px;
-    width: 40%;
+    width: 45%;
 }
 
 #top .gambar {
     position: absolute;
-    right: 10%;
+    right: 50px;
+    z-index: -1;
 }
 
 #top .auth {
@@ -305,3 +302,139 @@ nav .list ul li.active {
     margin-top: -110px;
 }
 
+.left {
+    width: 50%;   
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.left .judul {
+    font-family: bold;
+    color: #394CA4;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.left form {
+    font-family: med;
+    width: 100%;
+}
+
+.left form .fg {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+    gap: 10px;
+}
+
+.left form .fg label {
+    font-size: 25px;
+}
+
+.left form .fg span {
+    font-size: 25px;
+    color: red;
+}
+
+.left form .fg input {
+    font-size: 22px;
+    padding: 10px;
+    border: none;
+    background: #CCD4F4;
+}
+
+.left form .have {
+    display: flex;
+    gap: 8px;
+    font-size: 22px;
+    color: #495BB0;
+    margin-bottom: 20px;
+}
+
+.left form .have a {
+    font-family: smbold;
+}
+
+.left form .have a:hover {
+    color: #495BB0;
+}
+
+.left .btn {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    margin-top: 40px;
+}
+
+.left .btn button {
+    width: 50%;
+    font-size: 25px;
+    padding: 7px 0;
+    border: 1.5px solid #495BB0;
+    background: #495BB0;
+    color: #fff;
+}
+
+.left .btn button:hover {
+    cursor: pointer;
+    color: #495BB0;
+    background: transparent;
+}
+
+.left .btn a {
+    text-align: center;
+    width: 50%;
+    font-size: 25px;
+    padding: 7px 0;
+    border: 1.5px solid #495BB0;
+    color: #495BB0;
+    background: transparent;
+}
+
+.left .btn a:hover {
+    cursor: pointer;
+    cursor: pointer;
+    background: #495BB0;
+    color: #fff;
+}
+
+.right {
+    width: 50%;
+    background: #394CA4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.right .gambar {
+    display: flex;
+    z-index: 10;
+    width: 80%;
+    justify-content: center;
+}
+
+.right .gambar img {
+    width: 75%;
+}
+
+.right .oval {
+    position: absolute;
+    background: #495BB0;
+    bottom: 0;
+    height: 55%;
+    width: 33%;
+    border-radius: 170px 170px 0 0;
+}
+
+.forget {
+    color: #495BB0;
+}
+
+.forget:hover {
+    color: #CCD4F4 !important;
+}
