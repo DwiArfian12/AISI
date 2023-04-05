@@ -1,8 +1,8 @@
 function toNormal() {
-    location.href = '/normal/index.html'
+    location.href = 'normal/index.html'
 }
 function toDisable() {
-    location.href = '/disable/index.html'
+    location.href = 'disable/index.html'
 }
 
 const navbar = document.getElementById('navbar');
