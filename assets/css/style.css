@@ -40,7 +40,6 @@
     display: flex;
     flex-direction: column;
     width: 60%;
-    height: 75%;
     background: #fff;
     border-radius: 50px;
     padding: 3% 0;
@@ -53,13 +52,17 @@
     justify-content: center;
 }
 
+.welc-card .logo img {
+    width: 20%;
+}
+
 .welc-card .text {
     width: 100%;
     display: flex;
     justify-content: center;
-    padding: 6% 15%;
+    padding: 6% 13%;
     font-family: bold;
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
 }
 
@@ -68,7 +71,6 @@
     display: flex;
     justify-content: center;
     padding: 3% 15%;
-    font-size: 40px;
     text-align: center;
     gap: 3%;
 }
@@ -77,7 +79,7 @@
     font-family: bold;
     padding: 2%;
     width: 25%;
-    font-size: 35px;
+    font-size: 30px;
     text-transform: uppercase;
     background: #394CA4;
     border: none;
@@ -197,27 +199,46 @@ nav .list ul li.active {
 
 #top .judul {
     font-family: extbold;
-    font-size: 50px;
+    font-size: 40px;
     width: 45%;
 }
 
 #top .desc {
     font-family: med;
-    font-size: 30px;
+    font-size: 25px;
     width: 45%;
 }
 
 #top .gambar {
     position: absolute;
-    right: 50px;
+    right: 10px;
     z-index: -1;
+    display: flex;
+    justify-content: right;
+    width: 80%;
 }
+
+#top .gambar img {
+    width: 75%;
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
 
 #top .auth {
     display: flex;
     font-family: bold;
     color: white;
-    padding: 20px 30px;
+    padding: 15px 25px;
     background: #394CA4;
     font-size: 25px;
     align-items: center;
@@ -267,7 +288,7 @@ nav .list ul li.active {
 #courses .items {
     display: flex;
     justify-content: center;
-    gap: 10%;
+    gap: 7%;
     width: 100%;
 }
 
@@ -275,7 +296,7 @@ nav .list ul li.active {
     background: #fff;
     padding: 25px;
     border-radius: 15px;
-    width: 27%;
+    width: 30%;
     height: 350px;
     box-shadow: 1px 8px 15px -7px rgba(0,0,0,0.74);
 }
@@ -302,6 +323,8 @@ nav .list ul li.active {
     margin-top: -110px;
 }
 
+/* Auth Page */
+
 .left {
     width: 50%;   
     padding: 10%;
@@ -314,8 +337,8 @@ nav .list ul li.active {
 .left .judul {
     font-family: bold;
     color: #394CA4;
-    font-size: 35px;
-    margin-bottom: 30px;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
 
 .left form {
@@ -327,21 +350,21 @@ nav .list ul li.active {
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin-bottom: 20px;
-    gap: 10px;
+    margin-bottom: 15px;
+    gap: 7px;
 }
 
 .left form .fg label {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .left form .fg span {
-    font-size: 25px;
+    font-size: 20px;
     color: red;
 }
 
 .left form .fg input {
-    font-size: 22px;
+    font-size: 19px;
     padding: 10px;
     border: none;
     background: #CCD4F4;
@@ -350,29 +373,30 @@ nav .list ul li.active {
 .left form .have {
     display: flex;
     gap: 8px;
-    font-size: 22px;
+    font-size: 19px;
     color: #495BB0;
     margin-bottom: 20px;
 }
 
 .left form .have a {
     font-family: smbold;
+    color: #495BB0;
 }
 
 .left form .have a:hover {
-    color: #495BB0;
+    color: #CCD4F4;
 }
 
 .left .btn {
     width: 100%;
     display: flex;
     gap: 15px;
-    margin-top: 40px;
+    margin-top: 28px;
 }
 
 .left .btn button {
     width: 50%;
-    font-size: 25px;
+    font-size: 20px;
     padding: 7px 0;
     border: 1.5px solid #495BB0;
     background: #495BB0;
@@ -388,7 +412,7 @@ nav .list ul li.active {
 .left .btn a {
     text-align: center;
     width: 50%;
-    font-size: 25px;
+    font-size: 20px;
     padding: 7px 0;
     border: 1.5px solid #495BB0;
     color: #495BB0;
