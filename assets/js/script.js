@@ -14,7 +14,7 @@ function enterKeyPressed(event) {
  }
 function back(event) {
     if (event.keyCode == 48) {
-       location.href = '../index.html'
+       location.href = '../../index.html'
     }
  }
 
