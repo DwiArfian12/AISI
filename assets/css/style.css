@@ -123,9 +123,9 @@ nav .logo img:hover {
 nav .list ul {
     display: flex;
     height: 100%;
-    font-size: 20px;
+    font-size: 18px;
     align-items: center;
-    gap: 50px;
+    gap: 25px;
     font-family: smbold;
     text-transform: uppercase;
 }
@@ -283,21 +283,25 @@ nav .list ul li.active {
 #courses .content {
     width: 70%;
     display: flex;
+    justify-content: center;
 }
 
 #courses .items {
     display: flex;
     justify-content: center;
-    gap: 7%;
-    width: 100%;
+    gap: 40px;
+    width: 90%;
+    background: #CCD4F4;
+    padding: 5%;
+    border-radius: 50px 50px 0 0;
 }
 
 #courses .items .card {
     background: #fff;
     padding: 25px;
     border-radius: 15px;
-    width: 30%;
-    height: 350px;
+    width: 35%;
+    height: 500px;
     box-shadow: 1px 8px 15px -7px rgba(0,0,0,0.74);
 }
 #courses .items .card .gambar {
@@ -498,7 +502,7 @@ nav .list ul li.active {
 }
 
 .dis .items .card {
-    width: 45% !important;
+    width: 60% !important;
 }
 
 .dis .items .card .desc {
@@ -508,8 +512,8 @@ nav .list ul li.active {
 
 .dis .lay {
     width: 55% !important;
-    height: 800px !important;
-    margin-top: -750px !important;
+    height: 900px !important;
+    margin-top: -850px !important;
 }
 
 .dis .left {
@@ -540,3 +544,157 @@ nav .list ul li.active {
     right: 0;
     border-radius: 200px 0 0 0;
 }
+
+.navdis {
+    display: flex;
+    justify-content: center;
+}
+
+#courses .judul {
+    margin-top: 180px;
+    font-family: extbold;
+    font-size: 40px;
+}
+
+#courses .lay {
+    background: #CCD4F4;
+}
+
+#courses .btn {
+    margin: 10%;
+}
+
+.card:hover {
+    scale: 1.05;
+    transition: .5s;
+}
+
+#courses .btn button {
+    font-family: bold;
+    font-size: 25px;
+    background: #394CA4;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    width: 73%;
+}
+
+#courses .btn button:hover {
+    background: #CCD4F4;
+    cursor: pointer;
+}
+
+.dis .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.progress {
+    margin-top: 30px;
+    width: 60%;
+    background: #394CA4;
+    font-family: smbold;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.progress .bar {
+    display: flex;
+    height: 20px;
+    border-radius: 10px;
+    background: #fff;
+    width: 60%;
+}
+
+.bar .attempt {
+    border-radius: 10px;
+    background: #FFBE55;
+    width: 70%;
+    height: 100%;
+}
+
+.steps {
+    margin: 40px 0;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.step:hover {
+    cursor: pointer;
+    scale: 1.1;
+    transition: .5s;
+}
+
+.steps .step {
+    width: 100%;
+    background: #CCD4F4;
+    font-family: smbold;
+    font-size: 20px;
+    padding: 20px 50px;
+    display: flex;
+    border: 1.5px solid #495BB0;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    color: #495BB0;
+    font-family: smbold;
+    text-transform: uppercase;
+    padding: 16px;
+    border: none;
+    height: 100%;
+    font-size: 20px;
+    border-bottom: 2.5px solid #394CA4;
+    padding-bottom: 14px;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+    font-family: med;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background: #CCD4F4;
+    font-family: smbold;
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    font-family: bold;
+    cursor: pointer;
+  }

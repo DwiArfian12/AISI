@@ -27,7 +27,7 @@
         }
     </style>
 </head>
-<body>
+<body onkeypress="enterKeyPressed(event)">
     <main>
         <img class="bl" src="assets/img/eclipse.png" alt="">
         <div class="welc-card">
@@ -38,8 +38,8 @@
                 <p>Apakah Anda mengalami hambatan penglihatan low vision?</p>
             </div>
             <div class="button">
-                <button onclick="toNormal()">Tidak</button>
-                <button onclick="toDisable()">Ya</button>
+                <button onclick="toNormal(event)">Tidak</button>
+                <button onclick="toDisable(event)">Ya</button>
             </div>
         </div>
     </main>
