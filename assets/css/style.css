@@ -176,7 +176,7 @@ nav .list ul li:hover {
   padding-bottom: 16px;
 }
 
-nav .list ul li.active {
+.active {
   top: 10px;
   position: relative;
   box-sizing: border-box;
@@ -184,6 +184,12 @@ nav .list ul li.active {
   cursor: pointer;
   border-bottom: 2.5px solid #394ca4;
   padding-bottom: 16px;
+}
+
+.act {
+    box-sizing: border-box;
+    color: #495bb0;
+    border-bottom: 2px solid #394ca4;
 }
 
 #top {
