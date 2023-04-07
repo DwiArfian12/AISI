@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Courses</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
     <style>
         .judul {
             color: #394CA4;
@@ -16,18 +17,29 @@
     </style>
 </head>
 <body onkeypress="back(event)">
-    <nav id="navbar" class="navdis">
+    <nav id="navbar">
         <div class="logo">
             <img src="../assets/img/aisi-logo-black.png" alt="AISI Logo">
         </div>
-        <div class="dropdown">
-            <p class="dropbtn">Menu</p>
-            <div class="dropdown-content">
-                <a href="courses.html">Courses</a>
-                <a href="#">Contact</a>
-                <a href="#">Store</a>
-                <a href="index.html">Keluar</a>
-            </div>
+        <div class="list">
+            <ul>
+                <li class="active">Beranda</li>
+                <li>Tentang</li>
+                <li>Courses</li>
+                <li>Contact</li>
+                <div class="dropdown">
+                    <p class="dropbtn">Lainnya</p>
+                    <div class="dropdown-content">
+                        <a href="#">Store</a>
+                        <a href="#">Jadi Mentor</a>
+                        <a href="index.html">Keluar</a>
+                    </div>
+                </div>
+            </ul>
+        </div>
+        <div class="icon">
+            <img src="../assets/img/Buy.png" alt="Buy">
+            <img class="srch" src="../assets/img/Search.png" alt="Search">
         </div>
     </nav>
     <main>

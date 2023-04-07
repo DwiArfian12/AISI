@@ -300,8 +300,8 @@ nav .list ul li.active {
     background: #fff;
     padding: 25px;
     border-radius: 15px;
-    width: 35%;
-    height: 500px;
+    width: 40%;
+    height: 400px;
     box-shadow: 1px 8px 15px -7px rgba(0,0,0,0.74);
 }
 #courses .items .card .gambar {
@@ -561,7 +561,7 @@ nav .list ul li.active {
 }
 
 #courses .btn {
-    margin: 10%;
+    margin: 5%;
 }
 
 .card:hover {
@@ -647,19 +647,23 @@ nav .list ul li.active {
 
 /* Dropdown Button */
 .dropbtn {
-    color: #495BB0;
     font-family: smbold;
     text-transform: uppercase;
     padding: 16px;
     border: none;
     height: 100%;
-    font-size: 20px;
+    font-size: 18px;
+}
+
+.dropbtn:hover {
+    color: #495BB0;
     border-bottom: 2.5px solid #394CA4;
     padding-bottom: 14px;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    margin-left: -15px;
     position: relative;
     display: inline-block;
   }

@@ -6,10 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beranda</title>
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="shortcut icon" href="../assets/img/favicon.png" type="image/x-icon">
     <style>
         body {
             background: #CCD4F4;
         }
+        .items {
+            background: #495BB0 !important;
+        }
+
     </style>
 </head>
 <body onkeypress="back(event)">
@@ -23,7 +28,13 @@
                 <li>Tentang</li>
                 <li>Courses</li>
                 <li>Contact</li>
-                <li>Store</li>
+                <div class="dropdown">
+                    <p class="dropbtn">Lainnya</p>
+                    <div class="dropdown-content">
+                        <a href="#">Store</a>
+                        <a href="#">Jadi Mentor</a>
+                    </div>
+                </div>
             </ul>
         </div>
         <div class="icon">
@@ -77,9 +88,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="lay">
-
             </div>
         </section>
     </main>
