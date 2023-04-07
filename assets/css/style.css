@@ -166,6 +166,10 @@ nav .auth p {
   margin: 0 10px;
 }
 
+nav .list a {
+  color: #000;
+}
+
 nav .list ul li:hover {
   top: 10px;
   position: relative;
@@ -176,6 +180,10 @@ nav .list ul li:hover {
   padding-bottom: 16px;
 }
 
+nav .list ul li:hover a {
+  color: #394ca4;
+}
+
 .active {
   top: 10px;
   position: relative;
@@ -184,6 +192,10 @@ nav .list ul li:hover {
   cursor: pointer;
   border-bottom: 2.5px solid #394ca4;
   padding-bottom: 16px;
+}
+
+nav .list .active a {
+  color: #394ca4;
 }
 
 .act {
